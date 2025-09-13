@@ -1,72 +1,73 @@
 * {
-  border: solid black 1px;
+    box-sizing: border-box;
+    border: solid black 1px;
 }
 
 html, body {
-  height: calc(100% - 20px);
-  width: /*calc(*/100%/* - 1px)*/;
-  margin: 0;
-  border: none;
+    height: calc(100% - 20px);
+    width: /*calc(*/100%/* - 1px)*/;
+    margin: 0;
+    border: none;
 }
 
 body {
-/*  display: flex;  */
-  background-image: url('/bg.jpg');
-  background-position: center;
-  background-size: cover;
+/*    display: flex;    */
+    background-image: url('/bg.jpg');
+    background-position: center;
+    background-size: cover;
 }
 
 header {
-  display: flex;
-  flex-direction: row;
-  gap: 20px;
-/*  height: 80px;  */
-  width: calc(100% - 40px);
-  padding: 20px;
-  flex-wrap: wrap;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+/*    height: 80px;    */
+    width: 100%;
+    padding: 20px;
+    flex-wrap: wrap;
 }
 
 header section {
-  height: 80px;
-  width: 80px;
+    height: 80px;
+    width: 80px;
 }
 
 header section img {
-  width: 80px;
-  height: 80px;
-  border: hidden;
+    width: 80px;
+    height: 80px;
+    border: hidden;
 }
 
 header nav {
-  flex: 1;
-  padding: 0 20px 0 20px;
-  gap: 20px;
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  flex-wrap: wrap;
+    flex: 1;
+    padding: 0 20px 0 20px;
+    gap: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
 }
 
 header nav a.button {
-  height: 20px;
-  width: 60px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-decoration: none;
-  padding: 10px;
-  border-radius: 25px;
-  background-color: lightblue;
-  color: black;
+    /* height: 20px; */
+    /* width: 60px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    border-radius: 25px;
+    background-color: lightblue;
+    color: black;
 }
 
 header nav a.button:focus {
-  border: solid black 2px;
-  outline: none;  
+    border: solid black 2px;
+    outline: none;
 }
 
 header nav a.button:visited {
-  background-color: mediumaquamarine;
-  color: white;
+    background-color: mediumaquamarine;
+    color: white;
 }
