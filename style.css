@@ -30,49 +30,49 @@ header {
     width: 100%;
     padding: 20px;
     flex-wrap: wrap;
-}
 
-header section {
-    height: 80px;
-    width: 80px;
-}
+    section {
+        height: 80px;
+        width: 80px;
 
-header section img {
-    width: 80px;
-    height: 80px;
-    border: hidden;
-}
+        img {
+            width: 80px;
+            height: 80px;
+            border: hidden;
+        }
+    }
 
-header nav {
-    flex: 1;
-    padding: 0 20px 0 20px;
-    gap: 20px;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
-}
+    nav {
+        flex: 1;
+        padding: 0 20px 0 20px;
+        gap: 20px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
 
-header nav a.button {
-    /* height: 20px; */
-    /* width: 60px; */
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-decoration: none;
-    padding: 0.5rem 1rem;
-    border-radius: 25px;
-    background-color: lightblue;
-    color: black;
-}
+        a.button {
+            /* height: 20px; */
+            /* width: 60px; */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-decoration: none;
+            padding: 0.5rem 1rem;
+            border-radius: 25px;
+            background-color: lightblue;
+            color: black;
 
-header nav a.button:focus {
-    border: solid black 2px;
-    outline: none;
-}
+            &:focus {
+                border: solid black 2px;
+                outline: none;
+            }
 
-header nav a.button:visited {
-    background-color: mediumaquamarine;
-    color: white;
+            &:visited {
+                background-color: mediumaquamarine;
+                color: white;
+            }
+        }
+    }
 }
